@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.180392, 0.933333, 0.282353, 1 )
+
+[node name="Ledge" type="CSGCombiner"]
+material_override = SubResource( 1 )
+use_collision = true
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00862205, 0.440785, -0.0242136 )
+height = 0.2
+depth = 1.38094
+
+[node name="CSGBox" type="CSGBox" parent="CSGBox"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.07278, -0.0978289, 0 )
+height = 0.496136
+depth = 0.890603
+
+[node name="CSGPolygon" type="CSGPolygon" parent="CSGBox"]
+transform = Transform( 0.999997, -0.00225147, 0, 0.00225147, 0.999997, 0, 0, 0, 1, 2.33733, -0.450585, 0.453666 )
+polygon = PoolVector2Array( -0.437875, -0.114563, 0.753627, -0.0790122, -0.364435, 0.61531 )
