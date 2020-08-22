@@ -16,12 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Godot basic Move and Dodge Game"
-run/main_scene="res://Level.tscn"
+run/main_scene="res://assets/Menu.tscn"
 config/icon="res://icon.png"
 
 [display]
 
-window/size/width=1447
+window/size/width=1280
 window/size/height=838
 
 [input]
