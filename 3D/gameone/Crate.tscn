@@ -1,16 +1,3 @@
-[gd_scene load_steps=3 format=2]
-
-[ext_resource path="res://kenney_platformkit/crate.glb" type="PackedScene" id=1]
-
-[sub_resource type="BoxShape" id=1]
-extents = Vector3( 0.25, 0.25, 0.25 )
-
-[node name="Crate" instance=ExtResource( 1 )]
-transform = Transform( 0.988518, 0, -0.151106, 0.0208444, 0.99044, 0.136362, 0.149661, -0.137946, 0.979067, 0, 0, 0 )
-
-[node name="crateClone" parent="." index="0"]
-transform = Transform( 0.999869, 0.0161384, -0.000854373, -0.0161384, 0.99428, -0.105576, -0.000854388, 0.105576, 0.994411, -0.5, -0.243, 0.5 )
-
-[node name="CollisionShape" type="CollisionShape" parent="." index="1"]
-transform = Transform( 0.998371, 0.057036, -0.00176415, -0.0567173, 0.988446, -0.140571, -0.00627387, 0.140442, 0.99007, 0.0020596, 0.0603668, 0.0198584 )
-shape = SubResource( 1 )
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ed640821c308676bb090fce6dad4852a047916c8f71b43e8413018cd217bd89
+size 815

@@ -1,25 +1,3 @@
-[gd_scene load_steps=2 format=1]
-
-[ext_resource path="res://Miles.tres" type="TileSet" id=1]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="TileMap" type="TileMap" parent="."]
-
-mode = 0
-tile_set = ExtResource( 1 )
-cell/size = Vector2( 64, 64 )
-cell/quadrant_size = 16
-cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
-cell/half_offset = 2
-cell/tile_origin = 0
-cell/y_sort = false
-collision/use_kinematic = false
-collision/friction = 1.0
-collision/bounce = 0.0
-collision/layers = 1
-collision/mask = 1
-occluder/light_mask = 1
-tile_data = IntArray( -65536, 1, -65535, 1, -65534, 1, 0, 1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 131071, 1, 65536, 1, 65537, 1, 65538, 1, 65539, 1, 65540, 1, 65541, 1, 65542, 1, 196607, 1, 131072, 1, 131074, 1, 131075, 1, 131076, 1, 131077, 1, 131078, 1, 262143, 1, 196609, 1, 196610, 1, 196611, 1, 196612, 1, 196614, 1, 327679, 1, 262144, 1, 262145, 1, 262146, 1, 262147, 1, 262148, 1, 262149, 1, 262150, 1, 327680, 1, 327681, 1, 327682, 1, 327683, 1, 327684, 1 )
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd44ab74a6ae00f4ba66df5c0b05fded54caff0409e5734cf814c1312391c2b6
+size 1015
